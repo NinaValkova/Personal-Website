@@ -1,0 +1,11 @@
+.custom-video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 15px 0px;
+    padding: 8px;
+    border: 4px solid #d025bf;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    box-sizing: border-box;
+}

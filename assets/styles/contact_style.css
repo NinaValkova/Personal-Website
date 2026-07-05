@@ -1,0 +1,51 @@
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    max-width: 420px;
+    padding: 10px;
+    border: 2px solid #d025bf;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 15px;
+    background: #f7f1f7;
+}
+
+#contactForm input[type="submit"]
+{
+    cursor: pointer;
+    background: #cebece;
+}
+
+#contactForm input[type="submit"]:hover
+{
+    background: #cbaccb;
+}
+
+#contactForm textarea {
+    resize: vertical;
+}
+
+#contactForm label {
+    color: #0b2341;
+    font-weight: bold;
+}
+
+.textfieldRequiredMsg,
+.textfieldInvalidFormatMsg {
+    color: red;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
